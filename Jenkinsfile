@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh '''
                     npm --version
-                    npm cd
+                    npm ci
                     npm run build
                 '''
             }
